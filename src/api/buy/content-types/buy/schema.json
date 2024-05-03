@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "buys",
+  "info": {
+    "singularName": "buy",
+    "pluralName": "buys",
+    "displayName": "Buy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Surname": {
+      "type": "string"
+    },
+    "bankAccount": {
+      "type": "string"
+    },
+    "CVC": {
+      "type": "string"
+    },
+    "NameOnCard": {
+      "type": "string"
+    },
+    "checkout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.button"
+    }
+  }
+}

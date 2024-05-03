@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_games_featured_games",
+  "info": {
+    "displayName": "featuredGames",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "FeaturedGamesHeading": {
+      "type": "string"
+    },
+    "game": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::game.game"
+    }
+  }
+}

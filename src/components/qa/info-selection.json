@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_qa_info_selections",
+  "info": {
+    "displayName": "InfoSelection",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "company_info": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::company-info.company-info"
+    }
+  }
+}

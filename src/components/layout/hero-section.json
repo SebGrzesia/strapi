@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_layout_hero_sections",
+  "info": {
+    "displayName": "HeroSection",
+    "icon": "brush",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Buttons": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.button"
+    },
+    "QACarusell": {
+      "displayName": "InfoSelection",
+      "type": "component",
+      "repeatable": false,
+      "component": "qa.info-selection"
+    },
+    "Games": {
+      "displayName": "GameSelection",
+      "type": "component",
+      "repeatable": false,
+      "component": "games.game-selection"
+    }
+  }
+}

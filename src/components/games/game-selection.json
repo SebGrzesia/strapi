@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_games_game_selections",
+  "info": {
+    "displayName": "GameSelection"
+  },
+  "options": {},
+  "attributes": {
+    "types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::type.type"
+    },
+    "SelectionHead": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-information"
+    },
+    "HomeHero": {
+      "displayName": "HeroSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.hero-section"
+    },
+    "GamesSelection": {
+      "type": "dynamiczone",
+      "components": [
+        "games.featured-games",
+        "games.game-selection"
+      ],
+      "required": true
+    }
+  }
+}

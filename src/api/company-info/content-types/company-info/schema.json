@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "company_infos",
+  "info": {
+    "singularName": "company-info",
+    "pluralName": "company-infos",
+    "displayName": "CompanyInfo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CompanyName": {
+      "type": "string"
+    },
+    "Adress": {
+      "type": "string"
+    },
+    "PhoneNumber": {
+      "type": "biginteger"
+    },
+    "Email": {
+      "type": "string"
+    }
+  }
+}
